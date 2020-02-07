@@ -1,0 +1,25 @@
+{
+  "name": "functify",
+  "version": "1.0.0",
+  "description": "A module for stringify with functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anatdagan/functify.git"
+  },
+  "keywords": [
+    "JSON",
+    "strngify",
+    "parse",
+    "functions"
+  ],
+  "author": "Anat Dagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anatdagan/functify/issues"
+  },
+  "homepage": "https://github.com/anatdagan/functify#readme"
+}
