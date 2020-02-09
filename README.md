@@ -13,13 +13,13 @@ Install
 
 Usage
 -----
-    var Functify = require("functify")
+    var Functify = require("json-functify")
     var str = Functify.stringify([input object])
     var restored_object = Functify.parse(str)
 
 Example
 -------
-    var Functify = require("functify")
+    var Functify = require("json-functify")
     var fs=require("fs");
     var str = Functify.stringify({id:340, f: function() {return this.id})
     fs.writeFile("file.txt", str, function (err) {
@@ -28,7 +28,7 @@ Example
     });
 
     //in a different place
-    var Functify = require("functify")
+    var Functify = require("json-functify")
     var fs=require("fs");
     fs.readFile("file.tx", function(err, data) {
         var restored_object = Functify.parse(data.toString());
