@@ -4,7 +4,7 @@
   "description": "A module for stringify with functions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/anatdagan/functify/issues"
   },
-  "homepage": "https://github.com/anatdagan/functify#readme"
+  "homepage": "https://github.com/anatdagan/functify#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }

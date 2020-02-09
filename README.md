@@ -46,3 +46,7 @@ Supported by all browsers that suport JSON.stringify:
 - Internet Explorer >=8
 - Opera >=10.5
 - Safari >=4
+
+Caveat
+------
+If your object contains strings that start with "function ()" functify.parse will try to convert them into functions.
