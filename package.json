@@ -1,6 +1,6 @@
 {
   "name": "json-functify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A module for stringify with functions",
   "main": "index.js",
   "scripts": {
